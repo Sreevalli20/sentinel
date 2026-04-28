@@ -1,0 +1,5 @@
+{
+  "name": "SENTINEL AI Monitor",
+  "description": "Real-time AI surveillance for classroom attendance and engagement monitoring.",
+  "requestFramePermissions": ["camera", "microphone"]
+}

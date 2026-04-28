@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "description": "Action exemplars: centroid feature vectors (pitchRatio, yawRatio, mouthRatio, eyeOpenness) for similarity-based detection. Add more samples to improve accuracy.",
+  "exemplars": [
+    { "action": "Sleeping", "pitchRatio": 0.2, "yawRatio": 0, "mouthRatio": 0.02, "eyeOpenness": 0.005 },
+    { "action": "Sleeping", "pitchRatio": 0.15, "yawRatio": 0.1, "mouthRatio": 0.03, "eyeOpenness": 0.008 },
+    { "action": "Eating", "pitchRatio": 0.1, "yawRatio": 0, "mouthRatio": 0.18, "eyeOpenness": 0.12 },
+    { "action": "Eating", "pitchRatio": 0.05, "yawRatio": 0, "mouthRatio": 0.14, "eyeOpenness": 0.1 },
+    {
+      "action": "Reading",
+      "pitchRatio": 0.32,
+      "yawRatio": 0,
+      "mouthRatio": 0.04,
+      "eyeOpenness": 0.1
+    },
+    {
+      "action": "Writing",
+      "pitchRatio": 0.42,
+      "yawRatio": 0,
+      "mouthRatio": 0.03,
+      "eyeOpenness": 0.09
+    },
+    {
+      "action": "Playing",
+      "pitchRatio": 0.1,
+      "yawRatio": 0.65,
+      "mouthRatio": 0.05,
+      "eyeOpenness": 0.12
+    },
+    {
+      "action": "Watching",
+      "pitchRatio": 0.05,
+      "yawRatio": 0,
+      "mouthRatio": 0.04,
+      "eyeOpenness": 0.12
+    }
+  ]
+}

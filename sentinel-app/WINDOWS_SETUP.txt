@@ -1,0 +1,129 @@
+================================================================================
+  SENTINEL APP - WINDOWS SETUP INSTRUCTIONS
+  AI-Powered Attendance, Emotion & Engagement Monitoring
+================================================================================
+
+PREREQUISITES
+-------------
+
+1. Node.js (v18 or newer recommended)
+   - Download from: https://nodejs.org/
+   - Choose the LTS version
+   - Run the installer and follow the prompts
+   - Verify: Open Command Prompt and run:
+     node --version
+     npm --version
+
+2. Git (optional, only if cloning from a repository)
+   - Download from: https://git-scm.com/download/win
+
+
+STEP 1: GET THE CODE
+--------------------
+
+Option A - If you have the project folder already:
+  - Copy the entire project folder (e.g. tech-project-guide-1) to your Windows machine
+  - Navigate to the sentinel-app subfolder
+
+Option B - If cloning from Git:
+  - Open Command Prompt or PowerShell
+  - cd to where you want the project
+  - git clone <repository-url>
+  - cd tech-project-guide-1/sentinel-app
+
+
+STEP 2: OPEN TERMINAL IN PROJECT FOLDER
+---------------------------------------
+
+  - Open File Explorer and go to the sentinel-app folder
+  - In the address bar, type: cmd
+  - Press Enter (this opens Command Prompt in that folder)
+
+  OR
+
+  - Open Command Prompt
+  - cd C:\path\to\tech-project-guide-1\sentinel-app
+  (Replace with your actual path)
+
+
+STEP 3: INSTALL DEPENDENCIES
+----------------------------
+
+  npm install
+
+  - Wait for all packages to download and install
+  - This may take 2-5 minutes
+  - If you see errors, ensure you have internet connection and Node.js is installed
+
+
+STEP 4: START THE DEVELOPMENT SERVER
+------------------------------------
+
+  npm run dev
+
+  - The app will start on http://localhost:3000
+  - Open a browser and go to: http://localhost:3000
+  - You should see the SENTINEL home screen
+
+
+STEP 5: ALLOW CAMERA AND MICROPHONE (when prompted)
+--------------------------------------------------
+
+  - When you start monitoring, the browser will ask for camera and microphone access
+  - Click "Allow" for both
+  - Required for face detection, emotion recognition, and audio analysis
+
+
+================================================================================
+  OPTIONAL: PRODUCTION BUILD
+================================================================================
+
+To create a production build (for deployment):
+
+  npm run build
+
+  - Output goes to the dist/ folder
+  - Serve the dist folder with any static file server (e.g. nginx, Apache, or a simple HTTP server)
+
+
+================================================================================
+  TROUBLESHOOTING
+================================================================================
+
+1. "npm is not recognized"
+   - Node.js is not installed or not in PATH
+   - Reinstall Node.js and ensure "Add to PATH" is checked
+
+2. Port 3000 already in use
+   - Stop any other app using port 3000, or
+   - Edit package.json: change "dev" script to use a different port, e.g. --port=3001
+
+3. Camera not working
+   - Use Chrome or Edge (best support for WebRTC/camera)
+   - Ensure no other app is using the camera
+   - Check browser permissions: Settings > Privacy > Camera
+
+4. Slow or failing npm install
+   - Try: npm cache clean --force
+   - Then: npm install
+   - Or use a different network (some corporate networks block npm)
+
+5. Build errors
+   - Delete node_modules folder
+   - Delete package-lock.json (if it exists)
+   - Run: npm install
+   - Run: npm run build
+
+
+================================================================================
+  QUICK REFERENCE
+================================================================================
+
+  npm install          Install dependencies
+  npm run dev          Start dev server (http://localhost:3000)
+  npm run build        Production build
+  npm run preview      Preview production build locally
+  npm run lint         TypeScript check
+
+
+================================================================================

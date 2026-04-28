@@ -1,0 +1,28 @@
+SESSIONS WILL BE STORED IN THE DATABASE
+
+TEACHER , STUDENT , GUEST  -> DISPLAYS DATA FROM THE DATABASE
+
+
+
+REGISTER -> TEACHER , STUDENT , GUEST -> STORES IN DATABASE
+
+ATTENDANCE MONITORING  -> TEACHER ,STUDENT AND GUEST MONITORING -> MAIL WILL SENT IF STUDENT ABSENTS OTHERWISE MARKED AS PRESENT
+
+DATA CAN BE DOWNLOADED AS CSV FILE OF STUDENTS PRESENT OR ABSENT
+
+SESSIONS WILL BE STORED IN THE DATABASE
+
+TEACHER , STUDENT , GUEST  -> DISPLAYS DATA FROM THE DATABASE
+
+ANALYSIS GRAPHS WILL BE DISPLAYED BASED ON THE DATA
+
+when you are out of camera the graphs will be in null, if you are visible to camera the graph analytics begins
+
+
+when you are out of camera the graphs will be in null, if you are visible to camera the graph analytics begins
+
+
+
+
+
+this page the face emotions will recognize with colors

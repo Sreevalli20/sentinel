@@ -1,0 +1,54 @@
+# ----------------------------
+# Python
+# ----------------------------
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Environment variables
+.env
+
+# ----------------------------
+# Node / React
+# ----------------------------
+node_modules/
+dist/
+build/
+.next/
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ----------------------------
+# OS files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# IDE / Editors
+# ----------------------------
+.vscode/
+.idea/
+
+# ----------------------------
+# ML Models (IMPORTANT)
+# ----------------------------
+*.onnx
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.pb
+
+# ----------------------------
+# Misc
+# ----------------------------
+*.log
+*.tmp
