@@ -24,18 +24,6 @@ A full-stack AI-based application built using:
 - MySQL
 - OpenCV / ML Models
 
----
-
-## 📸 Screenshots
-
-### Home Page
-![Home](screenshots/home.png)
-
-### Face Detection
-![Detection](screenshots/face_detection.png)
-
-### Output Result
-![Result](screenshots/result.png)
 
 ---
 
